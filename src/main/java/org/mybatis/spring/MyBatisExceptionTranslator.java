@@ -76,6 +76,10 @@ public class MyBatisExceptionTranslator implements PersistenceExceptionTranslato
       return new MyBatisSystemException(e);
     } 
     return null;
+    
+    
+    
+    
   }
 
   /**
